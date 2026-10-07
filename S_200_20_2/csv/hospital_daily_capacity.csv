@@ -1,0 +1,8 @@
+hospital_id,activity_type,daily_capacity
+H1,dialysis,47
+H1,oncology,26
+H1,other,43
+H1,external,11
+H2,dialysis,27
+H2,oncology,14
+H2,other,32

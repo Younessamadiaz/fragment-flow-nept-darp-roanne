@@ -1,0 +1,2 @@
+hospital_id,hospital_name,city,hospital_type,lat,lon,source_quality
+H1,Centre Hospitalier de Roanne,Roanne,public_hospital,46.0533,4.0727,observed_user_table

@@ -1,0 +1,21 @@
+appointment_id,hospital_id,activity_type,slot_time,slot_start_min,appointment_minute,appointment_time_hhmm,treatment_duration_min,priority_code,priority_class,waiting_time_after_treatment_min,source_quality,source_note
+A0016,H2,dialysis,13:00,780,800,13:20,210,P1,high,15,assumption_to_validate,Renaison dialysis: assumed 30/day.
+A0015,H2,dialysis,08:00,480,485,08:05,260,P1,high,15,assumption_to_validate,Renaison dialysis: assumed 30/day.
+A0010,H1,other,08:30,510,555,09:15,105,P2,medium,25,observed_user_table,CH Roanne other: 49/day.
+A0003,H1,dialysis,08:00,480,530,08:50,240,P1,high,15,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening."
+A0006,H1,oncology,08:00,480,510,08:30,180,P1,high,15,observed_user_table,CH Roanne chemotherapy: 30/day.
+A0012,H1,other,14:00,840,920,15:20,65,P2,medium,25,observed_user_table,CH Roanne other: 49/day.
+A0019,H2,other,10:30,630,705,11:45,30,P2,medium,25,assumption_to_validate,Renaison other: assumed 36/day.
+A0002,H1,dialysis,08:00,480,535,08:55,240,P1,high,15,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening."
+A0007,H1,oncology,08:00,480,535,08:55,175,P1,high,15,observed_user_table,CH Roanne chemotherapy: 30/day.
+A0013,H1,external,08:30,510,600,10:00,20,P3,low,35,computed_from_user_table,External visits: 75/day * 15% using fleet.
+A0008,H1,oncology,11:00,660,685,11:25,160,P1,high,15,observed_user_table,CH Roanne chemotherapy: 30/day.
+A0009,H1,other,08:30,510,520,08:40,85,P2,medium,25,observed_user_table,CH Roanne other: 49/day.
+A0011,H1,other,10:30,630,655,10:55,65,P2,medium,25,observed_user_table,CH Roanne other: 49/day.
+A0017,H2,oncology,08:00,480,505,08:25,180,P1,high,15,assumption_to_validate,Renaison oncology: assumed 16/day.
+A0005,H1,dialysis,13:00,780,825,13:45,240,P1,high,15,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening."
+A0001,H1,dialysis,08:00,480,500,08:20,240,P1,high,15,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening."
+A0020,H2,other,14:00,840,870,14:30,30,P2,medium,25,assumption_to_validate,Renaison other: assumed 36/day.
+A0014,H2,dialysis,08:00,480,500,08:20,235,P1,high,15,assumption_to_validate,Renaison dialysis: assumed 30/day.
+A0018,H2,other,08:30,510,525,08:45,40,P2,medium,25,assumption_to_validate,Renaison other: assumed 36/day.
+A0004,H1,dialysis,13:00,780,810,13:30,240,P1,high,15,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening."

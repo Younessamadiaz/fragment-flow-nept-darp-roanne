@@ -1,0 +1,22 @@
+field,value
+instance_category,M/450/30/3
+instance_size,M
+service_date,2026-05-18
+target_patients,450
+target_vehicles,30
+target_hospitals,3
+transport_horizon,06:00-18:00
+appointment_horizon,08:00-18:00
+n_hospitals,3
+n_medical_appointments,450
+n_patients,450
+n_requests_total,789
+n_outbound_requests,450
+n_return_requests_same_day,339
+n_future_returns,111
+n_vehicles,30
+external_transport_share,0.15
+patient_distribution_method,hospital_share_then_specialty_share_then_slot_share
+distance_method,haversine_x_road_factor
+seed,77
+important_note,Renaison and third dialysis centre volumes are assumptions to validate.

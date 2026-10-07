@@ -1,0 +1,4 @@
+vehicle_type,eta_k,Q_k,speed_kmh,cost_per_km
+taxi_conventionne,15,3,42,1.25
+vsl,11,3,40,1.35
+vtc_premium,4,3,45,1.7

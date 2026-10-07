@@ -1,0 +1,4 @@
+hospital_id,reference_capacity,target_patients,reference_share,actual_share,reference_share_pct,actual_share_pct,hospital_name
+H1,144,173,0.576,0.5766666666666667,57.6,57.6667,Centre Hospitalier de Roanne
+H2,82,98,0.328,0.32666666666666666,32.8,32.6667,Clinique du Renaison
+H3,24,29,0.096,0.09666666666666666,9.6,9.6667,Centre de dialyse independant - Roanne

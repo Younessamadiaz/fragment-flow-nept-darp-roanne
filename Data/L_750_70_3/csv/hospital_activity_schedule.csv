@@ -1,0 +1,34 @@
+hospital_id,activity_type,daily_capacity,slot_time,slot_start_min,slot_capacity,source_quality,source_note,reference_daily_capacity,reference_slot_capacity,hospital_reference_capacity,hospital_reference_share,hospital_target_patients,hospital_actual_share,activity_reference_capacity,activity_reference_share_within_hospital,activity_target_patients,activity_actual_share_within_hospital
+H1,dialysis,159,08:00,480,78,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,26,144,0.576,432,0.576,53,0.3680555555555556,159,0.3680555555555556
+H1,dialysis,159,13:00,780,69,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,23,144,0.576,432,0.576,53,0.3680555555555556,159,0.3680555555555556
+H1,dialysis,159,17:00,1020,12,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,4,144,0.576,432,0.576,53,0.3680555555555556,159,0.3680555555555556
+H1,oncology,90,08:00,480,51,observed_user_table,CH Roanne chemotherapy: 30/day.,30,17,144,0.576,432,0.576,30,0.20833333333333334,90,0.20833333333333334
+H1,oncology,90,11:00,660,30,observed_user_table,CH Roanne chemotherapy: 30/day.,30,10,144,0.576,432,0.576,30,0.20833333333333334,90,0.20833333333333334
+H1,oncology,90,14:00,840,9,observed_user_table,CH Roanne chemotherapy: 30/day.,30,3,144,0.576,432,0.576,30,0.20833333333333334,90,0.20833333333333334
+H1,other,147,08:30,510,57,observed_user_table,CH Roanne other: 49/day.,49,19,144,0.576,432,0.576,49,0.3402777777777778,147,0.3402777777777778
+H1,other,147,10:30,630,45,observed_user_table,CH Roanne other: 49/day.,49,15,144,0.576,432,0.576,49,0.3402777777777778,147,0.3402777777777778
+H1,other,147,14:00,840,30,observed_user_table,CH Roanne other: 49/day.,49,10,144,0.576,432,0.576,49,0.3402777777777778,147,0.3402777777777778
+H1,other,147,16:00,960,15,observed_user_table,CH Roanne other: 49/day.,49,5,144,0.576,432,0.576,49,0.3402777777777778,147,0.3402777777777778
+H1,external,36,08:30,510,6,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,2,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,09:30,570,6,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,2,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,10:30,630,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,11:30,690,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,12:30,750,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,13:30,810,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,14:30,870,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,15:30,930,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,16:30,990,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H1,external,36,17:30,1050,3,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,0.576,432,0.576,12,0.08333333333333333,36,0.08333333333333333
+H2,dialysis,90,08:00,480,45,assumption_to_validate,Renaison dialysis: assumed 30/day.,30,15,82,0.328,246,0.328,30,0.36585365853658536,90,0.36585365853658536
+H2,dialysis,90,13:00,780,42,assumption_to_validate,Renaison dialysis: assumed 30/day.,30,14,82,0.328,246,0.328,30,0.36585365853658536,90,0.36585365853658536
+H2,dialysis,90,17:00,1020,3,assumption_to_validate,Renaison dialysis: assumed 30/day.,30,1,82,0.328,246,0.328,30,0.36585365853658536,90,0.36585365853658536
+H2,oncology,48,08:00,480,27,assumption_to_validate,Renaison oncology: assumed 16/day.,16,9,82,0.328,246,0.328,16,0.1951219512195122,48,0.1951219512195122
+H2,oncology,48,13:00,780,15,assumption_to_validate,Renaison oncology: assumed 16/day.,16,5,82,0.328,246,0.328,16,0.1951219512195122,48,0.1951219512195122
+H2,oncology,48,15:00,900,6,assumption_to_validate,Renaison oncology: assumed 16/day.,16,2,82,0.328,246,0.328,16,0.1951219512195122,48,0.1951219512195122
+H2,other,108,08:30,510,39,assumption_to_validate,Renaison other: assumed 36/day.,36,13,82,0.328,246,0.328,36,0.43902439024390244,108,0.43902439024390244
+H2,other,108,10:30,630,27,assumption_to_validate,Renaison other: assumed 36/day.,36,9,82,0.328,246,0.328,36,0.43902439024390244,108,0.43902439024390244
+H2,other,108,14:00,840,27,assumption_to_validate,Renaison other: assumed 36/day.,36,9,82,0.328,246,0.328,36,0.43902439024390244,108,0.43902439024390244
+H2,other,108,16:30,990,15,assumption_to_validate,Renaison other: assumed 36/day.,36,5,82,0.328,246,0.328,36,0.43902439024390244,108,0.43902439024390244
+H3,dialysis,72,08:00,480,36,assumption_to_validate,Third dialysis center: assumed 24/day.,24,12,24,0.096,72,0.096,24,1.0,72,1.0
+H3,dialysis,72,13:00,780,33,assumption_to_validate,Third dialysis center: assumed 24/day.,24,11,24,0.096,72,0.096,24,1.0,72,1.0
+H3,dialysis,72,17:00,1020,3,assumption_to_validate,Third dialysis center: assumed 24/day.,24,1,24,0.096,72,0.096,24,1.0,72,1.0

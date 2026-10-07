@@ -1,0 +1,5 @@
+patient_id,hospital_id,activity_type,origin_point_id,destination_point_id,return_ready_datetime,return_ready_minute_relative_to_service_date,reason_not_in_day_dataset
+P2,H1,dialysis,H1,HOME_P2,2026-05-18 17:35:00,1055,return_after_transport_horizon
+P3,H1,dialysis,H1,HOME_P3,2026-05-18 17:35:00,1055,return_after_transport_horizon
+P7,H2,dialysis,H2,HOME_P7,2026-05-18 17:35:00,1055,return_after_transport_horizon
+P14,H2,other,H2,HOME_P14,2026-05-18 11:25:00,685,return_not_generated_by_probability

@@ -1,0 +1,3 @@
+hospital_id,reference_capacity,target_patients,reference_share,actual_share,reference_share_pct,actual_share_pct,hospital_name
+H1,144,64,0.6371681415929203,0.64,63.7168,64.0,Centre Hospitalier de Roanne
+H2,82,36,0.36283185840707965,0.36,36.2832,36.0,Clinique du Renaison

@@ -1,0 +1,21 @@
+hospital_id,activity_type,daily_capacity,slot_time,slot_start_min,slot_capacity,source_quality,source_note,reference_daily_capacity,reference_slot_capacity,hospital_reference_capacity,hospital_reference_share,hospital_target_patients,hospital_actual_share,activity_reference_capacity,activity_reference_share_within_hospital,activity_target_patients,activity_actual_share_within_hospital,slot_start_datetime
+H1,dialysis,28,08:00,480,14,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,26,144,1.0,75,1.0,53,0.3680555555555556,28,0.37333333333333335,2026-05-18 08:00:00
+H1,dialysis,28,13:00,780,12,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,23,144,1.0,75,1.0,53,0.3680555555555556,28,0.37333333333333335,2026-05-18 13:00:00
+H1,dialysis,28,17:00,1020,2,observed_user_table,"CH Roanne dialysis: 53/day. 26 morning, 23 noon, 4 evening.",53,4,144,1.0,75,1.0,53,0.3680555555555556,28,0.37333333333333335,2026-05-18 17:00:00
+H1,oncology,16,08:00,480,9,observed_user_table,CH Roanne chemotherapy: 30/day.,30,17,144,1.0,75,1.0,30,0.20833333333333334,16,0.21333333333333335,2026-05-18 08:00:00
+H1,oncology,16,11:00,660,5,observed_user_table,CH Roanne chemotherapy: 30/day.,30,10,144,1.0,75,1.0,30,0.20833333333333334,16,0.21333333333333335,2026-05-18 11:00:00
+H1,oncology,16,14:00,840,2,observed_user_table,CH Roanne chemotherapy: 30/day.,30,3,144,1.0,75,1.0,30,0.20833333333333334,16,0.21333333333333335,2026-05-18 14:00:00
+H1,other,25,08:30,510,10,observed_user_table,CH Roanne other: 49/day.,49,19,144,1.0,75,1.0,49,0.3402777777777778,25,0.3333333333333333,2026-05-18 08:30:00
+H1,other,25,10:30,630,8,observed_user_table,CH Roanne other: 49/day.,49,15,144,1.0,75,1.0,49,0.3402777777777778,25,0.3333333333333333,2026-05-18 10:30:00
+H1,other,25,14:00,840,5,observed_user_table,CH Roanne other: 49/day.,49,10,144,1.0,75,1.0,49,0.3402777777777778,25,0.3333333333333333,2026-05-18 14:00:00
+H1,other,25,16:00,960,2,observed_user_table,CH Roanne other: 49/day.,49,5,144,1.0,75,1.0,49,0.3402777777777778,25,0.3333333333333333,2026-05-18 16:00:00
+H1,external,6,08:30,510,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,2,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 08:30:00
+H1,external,6,09:30,570,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,2,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 09:30:00
+H1,external,6,10:30,630,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 10:30:00
+H1,external,6,11:30,690,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 11:30:00
+H1,external,6,12:30,750,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 12:30:00
+H1,external,6,13:30,810,1,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 13:30:00
+H1,external,6,14:30,870,0,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 14:30:00
+H1,external,6,15:30,930,0,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 15:30:00
+H1,external,6,16:30,990,0,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 16:30:00
+H1,external,6,17:30,1050,0,computed_from_user_table,External visits: 75/day * 15% using fleet.,12,1,144,1.0,75,1.0,12,0.08333333333333333,6,0.08,2026-05-18 17:30:00

@@ -1,0 +1,19 @@
+math_symbol,dataset_table,dataset_column,meaning
+P,patients,patient_id,Set of patients.
+H,hospitals,hospital_id,Set of hospitals.
+K,vehicles,vehicle_type,Set of vehicle types.
+V_k,vehicles,vehicle_id,Available vehicles.
+0,points,D0,Depot node.
+c_ij,arc_parameters,c_ij,Travel cost.
+t_ij,arc_parameters,t_ij,Travel time.
+a_p,patient_parameters,a_p,Appointment time.
+tau_p,patient_parameters,tau_p,Treatment duration.
+s,global_parameters / model_nodes,s / service_time_min,Service time.
+Q_k,vehicle_type_summary,Q_k,Vehicle capacity.
+eta_k,vehicle_type_summary,eta_k,Number of vehicles by type.
+Omega,global_parameters,Omega,Maximum early arrival.
+Psi,global_parameters / patient_parameters,Psi / Psi_p,Maximum return pickup delay.
+Delta,patient_parameters,Delta_p,Maximum ride time.
+lambda,global_parameters,lambda,Ride-time weight.
+M,global_parameters,M,Big-M constant.
+alpha_pvk_phi,compatibility_alpha,alpha_pvk_phi,Patient-vehicle-phase compatibility.

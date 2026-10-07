@@ -1,0 +1,20 @@
+patient_id,hospital_id,activity_type,origin_point_id,destination_point_id,return_ready_datetime,return_ready_minute_relative_to_service_date,reason_not_in_day_dataset
+P1,H1,dialysis,H1,HOME_P1,2026-05-18 21:15:00,1275,return_after_transport_horizon
+P2,H1,dialysis,H1,HOME_P2,2026-05-18 17:20:00,1040,return_after_transport_horizon
+P5,H1,dialysis,H1,HOME_P5,2026-05-18 17:20:00,1040,return_after_transport_horizon
+P10,H1,oncology,H1,HOME_P10,2026-05-18 17:40:00,1060,return_after_transport_horizon
+P14,H1,dialysis,H1,HOME_P14,2026-05-18 17:40:00,1060,return_after_transport_horizon
+P17,H1,dialysis,H1,HOME_P17,2026-05-18 17:10:00,1030,return_after_transport_horizon
+P18,H1,other,H1,HOME_P18,2026-05-18 18:00:00,1080,return_after_transport_horizon
+P25,H1,dialysis,H1,HOME_P25,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P26,H1,other,H1,HOME_P26,2026-05-18 16:50:00,1010,return_after_transport_horizon
+P35,H1,dialysis,H1,HOME_P35,2026-05-18 17:35:00,1055,return_after_transport_horizon
+P41,H1,dialysis,H1,HOME_P41,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P45,H1,dialysis,H1,HOME_P45,2026-05-18 17:50:00,1070,return_after_transport_horizon
+P47,H1,other,H1,HOME_P47,2026-05-18 17:15:00,1035,return_after_transport_horizon
+P50,H1,dialysis,H1,HOME_P50,2026-05-18 17:35:00,1055,return_after_transport_horizon
+P56,H1,dialysis,H1,HOME_P56,2026-05-18 17:50:00,1070,return_after_transport_horizon
+P59,H1,external,H1,HOME_P59,2026-05-18 13:45:00,825,return_not_generated_by_probability
+P63,H1,dialysis,H1,HOME_P63,2026-05-18 21:00:00,1260,return_after_transport_horizon
+P68,H1,other,H1,HOME_P68,2026-05-18 19:05:00,1145,return_not_generated_by_probability
+P71,H1,dialysis,H1,HOME_P71,2026-05-18 17:45:00,1065,return_after_transport_horizon

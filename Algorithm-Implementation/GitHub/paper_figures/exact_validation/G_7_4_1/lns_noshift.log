@@ -1,0 +1,163 @@
+
+Loading instance from: cmp_instances/G_7_4_1/G_7_4_1_model_input.xlsx
+Day window: 09:30 -> 23:35  (starts 1h before earliest appointment, ends 2h after latest return-pickup deadline)
+Patients  : 7
+Hospitals : 1
+Vehicles  : 4  (taxi_conventionne: 2, vsl: 1, vtc_premium: 1)
+Shifts    : start at 2, grow on demand up to 12 trips/vehicle/day  (8 routing slots initially)
+
+Building initial solution...
+Initial objective : 222878.35
+Initial served    : 7/7
+Initial transitions : 6
+Initial shift transitions : 0
+
+Running LNS...
+
+Iter  100 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    0.9s
+Iter  200 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    1.9s
+Iter  300 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    2.9s
+Iter  400 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    4.0s
+Iter  500 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    4.9s
+Iter  600 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    5.7s
+Iter  700 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    6.7s
+Iter  800 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    7.5s
+Iter  900 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    8.3s
+Iter 1000 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    9.0s
+Iter 1100 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =    9.8s
+Iter 1200 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   10.5s
+Iter 1300 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   11.3s
+Iter 1400 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   12.0s
+Iter 1500 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   12.8s
+Iter 1600 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   13.6s
+Iter 1700 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   14.4s
+Iter 1800 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   15.2s
+Iter 1900 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   16.0s
+Iter 2000 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   16.8s
+Iter 2100 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   17.8s
+Iter 2200 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   19.0s
+Iter 2300 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   19.9s
+Iter 2400 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   20.7s
+Iter 2410 | Obj =    1203.72 | Served =   7/7 | Viol =     622.00 | Trans =  5 | Feasible = False | Time =   20.8s
+
+Stopped after 2410 iterations: EMA trend flattened (fast W=30, slow W=150, gap=0.0052% < 0.10% for 1500 consecutive iterations)
+
+
+================================================================================
+FINAL SOLUTION
+================================================================================
+Objective       : 1203.72
+Travel cost     : 325.44
+Ride penalty    : 256.28
+Violation cost  : 622.00
+Served patients : 7/7
+Unserved        : 0
+Feasible        : False
+Transitions     : 5
+Shifts grown to : min 3, max 4 (started at 2, capped at 12)
+
+
+================================================================================
+OUTBOUND ASSIGNMENTS (UPPER LEVEL)
+================================================================================
+
+Patient     Hospital    Vehicle                 
+------------------------------------------------
+P1          H1          vsl_V1 (trip 1)         
+P2          H1          vsl_V1 (trip 1)         
+P3          H1          taxi_conventionne_V2 (trip 1)
+P4          H1          vsl_V1 (trip 1)         
+P5          H1          taxi_conventionne_V1 (trip 1)
+P6          H1          vtc_premium_V1 (trip 1) 
+P7          H1          taxi_conventionne_V1 (trip 2)
+
+
+================================================================================
+RETURN ASSIGNMENTS (UPPER LEVEL)
+================================================================================
+
+Patient     Hospital    Vehicle                 
+------------------------------------------------
+P1          H1          vsl_V1 (trip 2)         
+P2          H1          vsl_V1 (trip 3)         
+P3          H1          taxi_conventionne_V2 (trip 1)
+P4          H1          vsl_V1 (trip 1)         
+P5          H1          taxi_conventionne_V1 (trip 1)
+P6          H1          vtc_premium_V1 (trip 1) 
+P7          H1          taxi_conventionne_V1 (trip 2)
+
+
+================================================================================
+OUTBOUND-TO-RETURN TRANSITIONS
+================================================================================
+
+Vehicle trip            From (h_out)    To (h_ret)        Distance Saved
+------------------------------------------------------------------------
+taxi_conventionne_V1 (trip 1)H1              H1                          1.06
+taxi_conventionne_V1 (trip 2)H1              H1                          1.06
+taxi_conventionne_V2 (trip 1)H1              H1                          1.06
+vsl_V1 (trip 1)         H1              H1                          1.06
+vtc_premium_V1 (trip 1) H1              H1                          1.06
+
+
+================================================================================
+INTER-SHIFT TRANSITIONS (skip the depot between trips)
+================================================================================
+
+  No inter-shift transitions used.
+
+
+================================================================================
+FULL DAILY ROUTES (one physical vehicle may run several trips)
+================================================================================
+
+taxi_conventionne_V1  (2 trip(s) today):
+  Trip 1 [09:30-13:59, transition H1->H1]:
+    DEPOT -> P5 -> H1  ~~[H1->H1]~~>  H1 -> P5 -> DEPOT
+  Trip 2 [13:59-17:52, transition H1->H1]:
+    DEPOT -> P7 -> H1  ~~[H1->H1]~~>  H1 -> P7 -> DEPOT
+
+taxi_conventionne_V2  (1 trip(s) today):
+  Trip 1 [09:30-21:55, transition H1->H1]:
+    DEPOT -> P3 -> H1  ~~[H1->H1]~~>  H1 -> P3 -> DEPOT
+
+vsl_V1  (3 trip(s) today):
+  Trip 1 [09:30-17:21, transition H1->H1]:
+    DEPOT -> P4 -> H1 -> P2 -> H1 -> P1 -> H1  ~~[H1->H1]~~>  H1 -> P4 -> DEPOT
+  Trip 2 [return only, 17:21-21:15]:
+    DEPOT -> H1 -> P1 -> DEPOT
+  Trip 3 [return only, 21:15-22:06]:
+    DEPOT -> H1 -> P2 -> DEPOT
+
+vtc_premium_V1  (1 trip(s) today):
+  Trip 1 [09:30-13:10, transition H1->H1]:
+    DEPOT -> P6 -> H1  ~~[H1->H1]~~>  H1 -> P6 -> DEPOT
+
+
+================================================================================
+PER-PATIENT TIMING TABLE
+================================================================================
+
+patient                   vehicle_out home_pickup_hhmm hospital_arrival_hhmm appointment_hhmm  out_ride_time  out_ride_violation  early_minutes  out_early_violation  out_late_violation                   vehicle_ret treatment_ready_hhmm return_pickup_hhmm  return_delay  return_delay_violation home_dropoff_hhmm  ret_ride_time  ret_ride_violation
+     P1               vsl_V1 (trip 1)            16:22                 16:30            17:00           7.72               False            0.0                False               False               vsl_V1 (trip 2)                21:00              21:00          0.00                   False             21:07           7.72               False
+     P2               vsl_V1 (trip 1)            15:49                 16:15            17:00          25.24                True            0.0                False               False               vsl_V1 (trip 3)                21:00              21:15         15.81                   False             21:41          25.24                True
+     P3 taxi_conventionne_V2 (trip 1)            15:47                 16:15            17:00          27.87                True            0.0                False               False taxi_conventionne_V2 (trip 1)                21:00              21:00          0.00                   False             21:27          27.87                True
+     P4               vsl_V1 (trip 1)            12:51                 13:15            14:00          23.22               False            0.0                False               False               vsl_V1 (trip 1)                16:30              16:35          5.44                   False             16:58          23.22               False
+     P5 taxi_conventionne_V1 (trip 1)            10:00                 10:15            11:00          14.88               False            0.0                False               False taxi_conventionne_V1 (trip 1)                13:30              13:30          0.00                   False             13:44          14.88               False
+     P6       vtc_premium_V1 (trip 1)            09:45                 10:05            10:30          20.66               False            0.0                False               False       vtc_premium_V1 (trip 1)                12:30              12:30          0.00                   False             12:50          20.66               False
+     P7 taxi_conventionne_V1 (trip 2)            15:06                 15:15            16:00           8.55               False            0.0                False               False taxi_conventionne_V1 (trip 2)                17:35              17:35          0.00                   False             17:43           8.55               False
+
+
+================================================================================
+CONSTRAINT VIOLATIONS
+================================================================================
+
+  2 patient(s) with a violated time constraint:
+
+patient                   vehicle_out home_pickup_hhmm hospital_arrival_hhmm appointment_hhmm  out_ride_time  out_ride_violation  early_minutes  out_early_violation  out_late_violation                   vehicle_ret treatment_ready_hhmm return_pickup_hhmm  return_delay  return_delay_violation home_dropoff_hhmm  ret_ride_time  ret_ride_violation
+     P2               vsl_V1 (trip 1)            15:49                 16:15            17:00          25.24                True            0.0                False               False               vsl_V1 (trip 3)                21:00              21:15         15.81                   False             21:41          25.24                True
+     P3 taxi_conventionne_V2 (trip 1)            15:47                 16:15            17:00          27.87                True            0.0                False               False taxi_conventionne_V2 (trip 1)                21:00              21:00          0.00                   False             21:27          27.87                True
+
+  No vehicle-capacity violations.
+
+Exported results to: _cmp_results/G_7_4_1/lns_noshift

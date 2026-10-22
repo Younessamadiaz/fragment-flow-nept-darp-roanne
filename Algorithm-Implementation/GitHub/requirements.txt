@@ -1,9 +1,0 @@
-# Versions used to produce the paper's results (Python 3.10.11)
-numpy==1.24.4
-pandas==1.4.1
-scipy==1.8.0
-matplotlib==3.5.1
-openpyxl==3.1.5
-pyomo==6.10.1
-# exact_mip.py additionally needs a MIP solver: Gurobi 10.0.2 (academic licence) was used;
-# CBC also works via --solver cbc.

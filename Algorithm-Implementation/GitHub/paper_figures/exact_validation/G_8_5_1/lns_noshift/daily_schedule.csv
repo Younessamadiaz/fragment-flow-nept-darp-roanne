@@ -1,9 +1,0 @@
-vehicle,trip,out_start,out_finish,ret_start,ret_finish,out_start_hhmm,out_finish_hhmm,ret_start_hhmm,ret_finish_hhmm,has_transition,has_shift_transition
-taxi_conventionne_V1,1,0.0,36.64,35.44,266.04,07:00,07:36,07:35,11:26,True,False
-taxi_conventionne_V1,2,266.04,380.6,379.4,559.96,11:26,13:20,13:19,16:19,True,False
-taxi_conventionne_V2,1,0.0,51.53,50.33,225.93,07:00,07:51,07:50,10:45,True,False
-taxi_conventionne_V2,2,225.93,380.6,379.4,576.27,10:45,13:20,13:19,16:36,True,False
-vsl_V1,1,0.0,20.6,19.4,251.69,07:00,07:20,07:19,11:11,True,False
-vsl_V1,2,251.69,560.6,559.4,884.39,11:11,16:20,16:19,21:44,True,False
-vsl_V2,1,0.0,20.6,19.4,319.6,07:00,07:20,07:19,12:19,True,False
-vsl_V2,2,319.6,355.84000000000003,354.64,635.64,12:19,12:55,12:54,17:35,True,False

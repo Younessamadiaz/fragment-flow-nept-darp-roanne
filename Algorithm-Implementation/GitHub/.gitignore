@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-_mip_tmp/
-paper_figures/**/runs/
-paper_figures/figures/
-paper_figures/replications/
-paper_figures/experiments/
-*.lp

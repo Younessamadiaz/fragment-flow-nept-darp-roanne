@@ -1,0 +1,16 @@
+symbol,value,unit,description
+instance_category,L/550/60/3,id,Generated instance category.
+target_patients,550,count,Requested number of patients.
+target_vehicles,60,count,Requested number of vehicles.
+target_hospitals,3,count,Requested number of hospitals.
+s,5,minutes,Service time at each visited node.
+s_pickup,5,minutes,Pickup service time.
+s_dropoff,5,minutes,Dropoff service time.
+Omega,45,minutes,Maximum early arrival before appointment.
+Psi,35,minutes,Maximum delay after treatment completion for return pickup.
+Delta_global,58,minutes,Maximum observed ride-time limit.
+lambda,1.0,objective_weight,Ride-time weight.
+M,100000,model_constant,Big-M constant.
+default_speed_kmh,42,km/h,Default speed for t_ij.
+default_cost_per_km,1.25,currency/km,Default cost for c_ij.
+external_transport_share,0.15,ratio,Share of external visits using the studied fleet.

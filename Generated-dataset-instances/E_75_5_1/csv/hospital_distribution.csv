@@ -1,0 +1,2 @@
+hospital_id,reference_capacity,target_patients,reference_share,actual_share,reference_share_pct,actual_share_pct,hospital_name
+H1,144,75,1.0,1.0,100.0,100.0,Centre Hospitalier de Roanne

@@ -1,0 +1,24 @@
+patient_id,hospital_id,activity_type,origin_point_id,destination_point_id,return_ready_datetime,return_ready_minute_relative_to_service_date,reason_not_in_day_dataset
+P2,H1,dialysis,H1,HOME_P2,2026-05-18 17:50:00,1070,return_after_transport_horizon
+P6,H2,other,H2,HOME_P6,2026-05-18 17:50:00,1070,return_after_transport_horizon
+P8,H1,dialysis,H1,HOME_P8,2026-05-18 17:20:00,1040,return_after_transport_horizon
+P13,H2,other,H2,HOME_P13,2026-05-18 10:00:00,600,return_not_generated_by_probability
+P15,H2,oncology,H2,HOME_P15,2026-05-18 20:00:00,1200,return_after_transport_horizon
+P28,H1,oncology,H1,HOME_P28,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P33,H2,dialysis,H2,HOME_P33,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P35,H1,external,H1,HOME_P35,2026-05-18 13:55:00,835,return_not_generated_by_probability
+P36,H1,dialysis,H1,HOME_P36,2026-05-18 17:55:00,1075,return_after_transport_horizon
+P37,H1,dialysis,H1,HOME_P37,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P39,H2,dialysis,H2,HOME_P39,2026-05-18 18:05:00,1085,return_after_transport_horizon
+P50,H1,other,H1,HOME_P50,2026-05-18 17:55:00,1075,return_after_transport_horizon
+P56,H1,dialysis,H1,HOME_P56,2026-05-18 12:40:00,760,return_not_generated_by_probability
+P59,H2,dialysis,H2,HOME_P59,2026-05-18 18:15:00,1095,return_after_transport_horizon
+P61,H1,dialysis,H1,HOME_P61,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P66,H1,dialysis,H1,HOME_P66,2026-05-18 21:50:00,1310,return_after_transport_horizon
+P70,H2,oncology,H2,HOME_P70,2026-05-18 18:25:00,1105,return_after_transport_horizon
+P72,H1,dialysis,H1,HOME_P72,2026-05-18 17:20:00,1040,return_after_transport_horizon
+P75,H1,dialysis,H1,HOME_P75,2026-05-18 17:45:00,1065,return_after_transport_horizon
+P78,H1,dialysis,H1,HOME_P78,2026-05-18 17:25:00,1045,return_after_transport_horizon
+P87,H1,other,H1,HOME_P87,2026-05-18 18:25:00,1105,return_after_transport_horizon
+P96,H2,other,H2,HOME_P96,2026-05-18 17:20:00,1040,return_after_transport_horizon
+P97,H1,dialysis,H1,HOME_P97,2026-05-18 21:35:00,1295,return_after_transport_horizon

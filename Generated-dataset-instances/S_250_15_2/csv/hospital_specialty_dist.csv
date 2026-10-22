@@ -1,0 +1,8 @@
+hospital_id,activity_type,reference_capacity,target_patients,reference_share_within_hospital,actual_share_within_hospital,actual_share_of_instance,reference_share_within_hospital_pct,actual_share_within_hospital_pct,actual_share_of_instance_pct,hospital_name
+H1,dialysis,53,59,0.3680555555555556,0.3710691823899371,0.236,36.8056,37.1069,23.6,Centre Hospitalier de Roanne
+H1,oncology,30,33,0.20833333333333334,0.20754716981132076,0.132,20.8333,20.7547,13.2,Centre Hospitalier de Roanne
+H1,other,49,54,0.3402777777777778,0.33962264150943394,0.216,34.0278,33.9623,21.6,Centre Hospitalier de Roanne
+H1,external,12,13,0.08333333333333333,0.08176100628930817,0.052,8.3333,8.1761,5.2,Centre Hospitalier de Roanne
+H2,dialysis,30,33,0.36585365853658536,0.3626373626373626,0.132,36.5854,36.2637,13.2,Clinique du Renaison
+H2,oncology,16,18,0.1951219512195122,0.1978021978021978,0.072,19.5122,19.7802,7.2,Clinique du Renaison
+H2,other,36,40,0.43902439024390244,0.43956043956043955,0.16,43.9024,43.956,16.0,Clinique du Renaison

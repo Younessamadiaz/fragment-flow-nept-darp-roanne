@@ -1,0 +1,2 @@
+table,status,reason
+travel_matrix_by_vehicle,not_exported_by_default,Set EXPORT_VEHICLE_ID_MATRIX=True if a full vehicle-id matrix is required. The type matrix is exported and vehicle ids inherit type speed/cost.

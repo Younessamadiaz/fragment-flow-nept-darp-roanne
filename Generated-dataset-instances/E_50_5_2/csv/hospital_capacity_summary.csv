@@ -1,0 +1,8 @@
+hospital_id,activity_type,daily_capacity,total_slot_capacity,max_slot_capacity,number_of_slots,capacity_feasible,hospital_name,city,hospital_type
+H1,dialysis,12,12,6,3,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,external,2,2,1,10,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,oncology,7,7,4,3,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,other,11,11,4,4,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H2,dialysis,7,7,4,3,1,Clinique du Renaison,Roanne,private_clinic
+H2,oncology,3,3,2,3,1,Clinique du Renaison,Roanne,private_clinic
+H2,other,8,8,3,4,1,Clinique du Renaison,Roanne,private_clinic

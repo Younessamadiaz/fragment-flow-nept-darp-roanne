@@ -1,0 +1,5 @@
+hospital_id,activity_type,daily_capacity,total_slot_capacity,max_slot_capacity,number_of_slots,capacity_feasible,hospital_name,city,hospital_type
+H1,dialysis,28,28,14,3,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,external,6,6,1,10,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,oncology,16,16,9,3,1,Centre Hospitalier de Roanne,Roanne,public_hospital
+H1,other,25,25,10,4,1,Centre Hospitalier de Roanne,Roanne,public_hospital

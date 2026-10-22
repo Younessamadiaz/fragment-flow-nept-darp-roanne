@@ -1,0 +1,6 @@
+vehicle_id,vehicle_type,capacity_Qk,speed_kmh,cost_per_km,start_point_id,start_lat,start_lon,route_type
+V1,taxi_conventionne,3,42,1.25,VS_V1,46.095078649623844,4.140835297865086,open_route
+V2,taxi_conventionne,3,42,1.25,VS_V2,46.025497190227306,4.173648622432858,open_route
+V3,vsl,3,40,1.35,VS_V3,46.080734926596996,4.187684085955376,open_route
+V4,vsl,3,40,1.35,VS_V4,46.08975845777522,4.1677631830390345,open_route
+V5,vtc_premium,3,45,1.7,VS_V5,46.11206395186311,3.9789969297659358,open_route

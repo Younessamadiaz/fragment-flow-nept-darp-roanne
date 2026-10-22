@@ -1,0 +1,16 @@
+symbol,status,table,column
+c_ij,included,arc_parameters,c_ij
+t_ij,included,arc_parameters,t_ij
+t_ij_type,included,travel_matrix_by_vehicle_type,t_ij_type
+c_ij_type,included,travel_matrix_by_vehicle_type,c_ij_type
+a_p,included,patient_parameters,a_p
+tau_p,included,patient_parameters,tau_p
+s,included,global_parameters / model_nodes,s / service_time_min
+Q_k,included,vehicle_type_summary,Q_k
+eta_k,included,vehicle_type_summary,eta_k
+Omega,included,global_parameters,Omega
+Psi,included,global_parameters / patient_parameters,Psi / Psi_p
+Delta,included,patient_parameters,Delta_p
+lambda,included,global_parameters,lambda
+M,included,global_parameters,M
+alpha_pvk_phi,included,compatibility_alpha,alpha_pvk_phi
